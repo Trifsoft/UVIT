@@ -1,0 +1,36 @@
+@font-face {
+    font-family: FamilijaIzZadatka;
+    src: url('zadatak1_font.ttf');
+}
+#naslov {
+    font-family: FamilijaIzZadatka, Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-shadow: black 2px 2px 2px;
+}
+#uvod {
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.prvadva {
+    text-align: center;
+    background-color: palevioletred;
+    color: white;   
+}
+#p1 {
+    text-indent: 3ch;
+    font-family: monospace;
+    font-size: 1.3em;
+}
+span {
+    color: palevioletred;
+}
+#p2 {
+    color: teal;
+    font-style: italic;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 0.5px teal;
+}
+#datum {
+    font-size: 1.2em;
+    text-shadow: 0px 0px 1px;
+}
