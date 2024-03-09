@@ -1,0 +1,15 @@
+
+figure{
+    border: 1px red solid;
+    width: 500px;
+    margin: auto;
+}
+img {
+    width: 500px;
+    height: 375px;
+}
+figcaption {
+    font-family: serif;
+    text-align: center;
+    padding: 1em 0em;
+}
