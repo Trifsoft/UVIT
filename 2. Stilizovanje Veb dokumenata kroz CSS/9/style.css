@@ -1,0 +1,51 @@
+html {
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+}
+table {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th {
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    text-align: left;
+    padding: 1em;
+    width: 25%;
+}
+td {
+    border: 1px solid black;
+    padding: 1em;
+    width: 25%;
+}
+tr:first-child{
+    background-color: rgba(63, 107, 226, 0.6);
+}
+tr:nth-child(2n) {
+    background-color: rgba(92, 236, 255, 0.6);
+}
+a {
+    font-style: italic;
+    text-decoration: none;
+    color: red;
+}
+a:visited {
+    color: white;
+    font-size: 0.9em !important;
+}
+a:hover {
+    cursor: help;
+}
+caption {
+    caption-side: bottom;
+    font-weight: bold;
+}
+caption::first-letter {
+    color: red;
+    font-style: italic;
+    font-size: 1.3em;
+}
