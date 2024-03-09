@@ -1,0 +1,29 @@
+h1 {
+    color: #f12ff8;
+    text-decoration: underline;
+}
+h2 {
+    color: #69fd7c;
+}
+#ul1 {
+    list-style-type: circle;
+}
+#ul3 {
+    list-style-image: url('tortica.png');
+}
+.spans {
+    font-weight: bold;
+}
+a, p span {
+    color: #f12ff8;
+}
+#lasth{
+    margin-bottom: 0;
+}
+#ul4 {
+    list-style: none;
+    margin: 0;
+}
+p {
+    text-align: right;
+}
