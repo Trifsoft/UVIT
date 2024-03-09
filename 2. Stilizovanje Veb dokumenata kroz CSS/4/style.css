@@ -1,0 +1,18 @@
+figure {
+    display: inline-block;
+    margin: 0;
+    border: 1px solid #AAA;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+.evenfigure {
+    position: relative;
+    top: 256px;
+}
+figcaption {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 1em;
+}
