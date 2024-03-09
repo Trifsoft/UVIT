@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+#root {
+    background-image: linear-gradient(to bottom, skyblue 80%, rgb(123, 221, 130));
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.layer {
+    position: fixed;
+    width: 100%;
+    height: 500px;
+}
+#trava {
+    background-image: url('trava.png');
+    background-position: left bottom;
+    background-repeat: repeat-x;
+}
+#ptice {
+    background-image: url('ptice.png');
+    background-position: center 105px;
+    background-repeat: repeat-x;
+}
+#sunce {
+    background-image: radial-gradient(circle at 50% 55px, orange, yellow 50px, transparent 50px, transparent 100%);
+    background-size: 100% 105px;
+    background-repeat: no-repeat;
+}
