@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+#root {
+    background-image: linear-gradient(to bottom, rgb(5, 48, 84), white);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.layer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+#layer1 {
+    background-image: url('pahulje.png');
+    background-repeat: repeat-x;
+    background-size: 10%;
+}
+#layer2 {
+    background-image: url('snesko.png');
+    background-repeat: no-repeat;
+    background-position: right 95%;
+    background-size: 20%;
+}
